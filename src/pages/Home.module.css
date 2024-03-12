@@ -1,0 +1,33 @@
+.container {
+    margin-top: 50px;
+  }
+  
+  .cont {
+    border: 2px solid black;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; /* Center main content vertically */
+    position: relative;
+  }
+  
+  .mainContent{
+    /* Remove justify-self and add text-align center for horizontal centering */
+    text-align: center;
+  }
+  .avatar{
+    border: 2px solid black;
+  object-fit: cover; /* Ensure the image fills the circular container */
+  border: none; /* Remove border */
+  }
+
+  
+  
+  .buttonContainer {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    /* Adjust as needed */
+  }
+  
