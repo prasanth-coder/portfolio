@@ -1,9 +1,3 @@
 *{
     font-size: 18px;
 }
-#projects,#contact,#about,#experience{
-    height: 800px;
-    width: 200px;
-    margin: auto;
-    border: 2px solid black;
-}

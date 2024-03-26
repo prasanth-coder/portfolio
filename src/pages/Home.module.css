@@ -3,11 +3,12 @@
   }
   
   .cont {
-    border: 2px solid black;
+    margin-top: 10px;
+    /* border: 2px solid black;  */
     height: 700px;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    flex-direction: center;
+    justify-content: center;
     align-items: center; /* Center main content vertically */
     position: relative;
   }
@@ -15,15 +16,46 @@
   .mainContent{
     /* Remove justify-self and add text-align center for horizontal centering */
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
+
+  .img {
+    border: none;    
+    background-size: cover;
+    background-position: center;
+  }
+  
+  
   .avatar{
     border: 2px solid black;
   object-fit: cover; /* Ensure the image fills the circular container */
   border: none; /* Remove border */
   }
+ .content{
+  margin-left: 20px;
+ }
+ .btns{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ .btns button{
+  border: 0.2px solid black;
+  border-radius: 10px;
+  background: none;
+  padding: 4px;
+ }
 
-  
-  
+.links a{
+  text-decoration: none;
+}
+.git,.lid{
+   font-size: 30px;
+   margin: 20px;
+   color: black;
+}
   .buttonContainer {
     position: absolute;
     bottom: 10px;
@@ -31,3 +63,18 @@
     /* Adjust as needed */
   }
   
+  .links{
+    text-decoration: none;
+  }
+
+  @media only screen and (max-width: 700px) {
+    
+    .mainContent{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+    }
+  
+  }

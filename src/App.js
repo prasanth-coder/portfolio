@@ -7,12 +7,14 @@ import Projects from './pages/Projects';
 import Experience from './pages/Experience';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import About from './pages/About';
 
 const App = () => {
   return (
     <Router>
       <Header />
-      <Element name="home"><Home /></Element>
+      <Home />
+      <Element name="about"><About /></Element>
       <Element name="experience"><Experience /></Element>
       <Element name="projects"><Projects /></Element>
       <Element name="contacts"><Contacts /></Element>

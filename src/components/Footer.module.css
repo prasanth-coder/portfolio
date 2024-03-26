@@ -1,0 +1,43 @@
+.ulCont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    
+}
+
+
+nav ul li{
+    list-style-type: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+    font-size: 26px;
+}
+
+
+nav ul li  :hover{
+    text-decoration: underline;
+    
+
+}
+
+.copyright{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 870px) {
+    .ulCont{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+    
+
+}

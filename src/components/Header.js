@@ -5,7 +5,7 @@ import styles from './Header.module.css';
 
 const Header = () => {
   return (
-    <Navbar collapseOnSelect={false} expand="lg" className="bg-body-tertiary" >
+    <Navbar collapseOnSelect={false} expand="lg" className="container bg-body-tertiary" style={{ height: '80px' }}>
       <Container>
         <Navbar.Brand href="#home">Prasanth Muthupandi</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
