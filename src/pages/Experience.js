@@ -16,7 +16,7 @@ const Experience = () => {
       </div>
       <div className={styles.boxes}>
         <div>
-        <p style={{textAlign:'center'}} className='h6'>Front End</p>
+        <p style={{textAlign:'center'}} className='h4'>Front End</p>
         <div className={styles.box}>
           {frontEnd.map((data,index) => 
             <ExpStructure title={data.title} subTitle={data.subTitle} key={index}/>
@@ -26,7 +26,7 @@ const Experience = () => {
         </div>
         </div>
         <div>
-        <p style={{textAlign:'center'}} className='h6'>Back End</p>
+        <p style={{textAlign:'center'}} className='h4'>Back End</p>
         <div className={styles.box}>
           
         {backEnd.map((data,index) => 

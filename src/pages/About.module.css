@@ -68,12 +68,17 @@
     justify-content: center;
     align-items: center;
     
+    
+}
+
+.boxes p{
+    font-size: 18px;
 }
 .subContent{
     width: 450px;
 }
 .subContent p{
-    font-size: 14px;
+    font-size: 18px;
 
 }
 
