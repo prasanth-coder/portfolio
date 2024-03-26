@@ -8,5 +8,7 @@
 
 .btn:hover{
    color: white;
+   border-radius: 50%;
    background-color: black;
+   cursor: pointer;
 }
