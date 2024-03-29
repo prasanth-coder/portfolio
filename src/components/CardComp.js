@@ -7,8 +7,8 @@ function CardComp({src,title,content,btn,link}) {
     window.open(link, '_blank');
   }
   return (
-    <Card style={{ width: '18rem',padding:'10px'}}>
-      <Card.Img variant="top" src={src} style={{ height: '500px', objectFit: 'cover' }}/>
+    <Card style={{ width: '18rem',padding:'10px',height : '700px',overflow:'hidden'}}>
+      <Card.Img variant="top" src={src} style={{ height: '380px', objectFit: 'cover' }}/>
       <Card.Body>
         <Card.Title>{title}</Card.Title>
         <Card.Text>
