@@ -5,6 +5,7 @@ import ButtonArrow from '../components/ButtonArrow';
 import {scrollToNextSection} from "../Feature/ScrollPage"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+
 const Home = () => {
   
     const handleScrollToNextSection = () => {
@@ -15,10 +16,11 @@ const Home = () => {
       };
 
     const downloadCV = () => {
-      const pdfUrl = process.env.PUBLIC_URL + '/cv.pdf';     
+      const pdfUrl = process.env.PUBLIC_URL + '/Prasanth_Resume.pdf';     
       const link = document.createElement('a');
       link.href = pdfUrl;
-      link.download = 'cv.pdf'; 
+      link.download = 'Prasanth_Resume.pdf';
+      link.setAttribute('type', 'application/pdf'); 
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
